@@ -6,6 +6,8 @@
 3. 生成字段注释常亮
 4. 字段填充拦截
 5. 自定义类型转换
+# 注释常亮示例
+   log_type TINYINT(1)    COMMENT '日志类型{admin: 1, 管理后台操作日志; business: 0, 业务日志}' 
 # 依赖
 
 ```xml
